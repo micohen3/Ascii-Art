@@ -9,9 +9,9 @@ using namespace std;
 int main()
 {
 	ofstream txt_output;
-	bitmap_image image = bitmap_image("foo.bmp");
+	bitmap_image image = bitmap_image("justin.bmp");
 	Ascii_image converter = Ascii_image();
-	converter.convert(txt_output, "foo_ascii.txt", image);
+	converter.convert(txt_output, "justin_big_ascii.txt", image);
 	system("pause");
 	return 0;
 }
